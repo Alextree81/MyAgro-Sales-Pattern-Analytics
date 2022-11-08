@@ -1,0 +1,19 @@
+BA780 Team2 Project Proposal
+
+Project Title: Analyze Yield Patterns and Client Behavior to Improve myAgro Clients’ Sales
+
+Problem Description:
+Our project objective is to maximize myAgro clients sales by targeting highest yield groups and explore relationships between sales and yields.
+
+Important variables we will analyze are: 
+Village_code and country_name provide insights on yield patterns and sales.
+Season: season records the yield/payment received of a particular year which we will use to examine changes in total sales.
+Payment: The amount paid by farmers. Currency depends on the country. Is_rollover and Is_audit classifies whether a payment should be included when calculating field revenue.
+Package sales: client code on packages can be traced back to package deliverables in the client table.
+
+Data Source:
+The data is based on myAgro’s data warehouse which is used to document transactions-specific and geographic information. The dataset contains 4 csv files: client, harvest, package, and payment, where each file has more than 2,000 rows and 20 columns. 
+
+Motivation:
+Since myAgro’s goal is to help farmers in West Africa out of poverty, our motivation is to figure out which variables would contribute the most to the farm yields and increase farmers’ savings.
+
